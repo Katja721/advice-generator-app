@@ -1,0 +1,33 @@
+:root {
+  --primary-one: hsl(193, 38%, 86%);
+  --primary-two: hsl(150, 100%, 66%);
+
+  --neutral-one: hsl(217, 19%, 38%);
+  --neutral-two: hsl(217, 19%, 24%);
+  --neutral-three: hsl(218, 23%, 16%);
+}
+body {
+  background-color: var(--neutral-three);
+  text-align: center;
+}
+hr {
+  width: 50%;
+}
+.container {
+  background-color: var(--neutral-two);
+  width: fit-content;
+  margin: 11rem 20rem;
+  padding: 3rem 6rem;
+  border-radius: 20px;
+}
+.advice-paragraph {
+  color: var(--primary-two);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
