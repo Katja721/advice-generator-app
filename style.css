@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 :root {
   --primary-one: hsl(193, 38%, 86%);
   --primary-two: hsl(150, 100%, 66%);
@@ -9,6 +10,7 @@
 body {
   background-color: var(--neutral-three);
   text-align: center;
+  font-family: "Manrope", sans-serif;
 }
 hr {
   width: 50%;
@@ -22,8 +24,26 @@ hr {
 }
 .advice-paragraph {
   color: var(--primary-two);
+  font-size: 0.9em;
 }
-
+.advice {
+  color: var(--primary-one);
+  font-size: 1.5em;
+  width: 72%;
+  text-align: center;
+  margin: 0rem 4rem;
+}
+.dice-border {
+  background-color: var(--primary-two);
+  padding: 0.8rem 0.9rem 0.6rem 0.9rem;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  margin: 0rem 13rem -4.5rem 13rem;
+}
+.devider {
+  margin: 2rem 0rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
